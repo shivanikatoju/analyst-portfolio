@@ -1,0 +1,99 @@
+* {
+  color: aliceblue;
+}
+body {
+  background: rgba(94, 90, 90, 1);
+  padding: 0;
+  margin: 0;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.wrapper {
+  overflow-x: hidden;
+}
+
+.side {
+  flex-direction: column;
+  background: rgb(79, 79, 79);
+  padding: 2rem;
+  height: 100vh;
+  gap: 50px;
+}
+/* abhi */
+.abhi {
+  flex-direction: column;
+}
+
+.abhi img {
+  border-radius: 100%;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+}
+
+.nav {
+  flex-direction: column;
+  align-items: start;
+  gap: 26px;
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.nav i {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav li {
+  gap: 26px;
+}
+
+/* .nav .home,
+.about {
+  color: blue;
+} */
+
+/* main */
+.main {
+  padding: 3rem;
+}
+
+/* footer */
+footer {
+  background: black;
+  margin: 0;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+  /* left: 3px; */
+}
